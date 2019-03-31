@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nav dropdpwn</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="nav" id="nav">
+     <div ><i class="fa fa-bars"></i></div>
+      <ul id="list">
+          <li id="content1"><a href="#">Home</a></li>
+          <li id="content2"><a href="#">About</a></li>
+          <li id="content3"><a href="#">Contact</a></li>
+          <li id="content4" onclick="openNav()"  ><a href="#">Product  <i class="fas fa-sort-down" id="down"></i></a>
+          <ul id="sublist" >
+              <li><a href="#">BigMac</a></li>
+              <li><a href="#">MacRoyl</a></li>
+              <li><a href="#">BigTasty</a></li>
+          </ul>
+          </li>
+          <i id="up" onclick="closeNav()" class="fas fa-sort-up"></i>
+      </ul> 
+    </nav>
+    
+    
+    
+    
+      <script src="jquery.min.js"></script> <script src="script.js"></script>
+</body>
+</html>
